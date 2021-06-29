@@ -13,6 +13,22 @@ header {
   border-bottom: 5px #04fe3a solid;
   font-size: 2rem;
 }
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* 19 from top
++75  = 164px  */
+.avatar {
+  /* position: absolute; */
+  /* left: 50px; */
+  /* top: 94.4px; */
+  width: 150px;
+  margin: 20px 20px 20px 0;
+  border-radius: 50%;
+  border: 5px #000 solid;
+}
 header h1 {
   margin: 0 auto;
   padding-top: 1rem;
@@ -28,7 +44,6 @@ header h1::after {
 .terminal-green {
   color: #04fe3a;
 }
-
 .main-nav {
   /* background-color: #dfcfbe; */
   /* background-color: #938375; */
@@ -40,10 +55,11 @@ header h1::after {
   font-size: 1.5rem;
   display: flex;
   justify-content: space-evenly;
-  height: 10vh;
+  height: 80px;
   max-width: 1000px;
   list-style-type: none;
   margin: 0 auto;
+  /* padding: 50px 0 0 0; */
   padding: 0;
 }
 .main-nav li {
@@ -82,4 +98,41 @@ header h1::after {
   60% {
     opacity: 0;
   }
+}
+
+main {
+  /* background-color: blue; */
+  max-width: 800px;
+  margin: 0 auto;
+}
+main ul {
+  display: inline-block;
+  margin: 0;
+}
+
+footer {
+  color: #fff;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 0 2rem;
+}
+
+footer .social-icons {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .social-icons i {
+  font-size: 2rem;
+  padding: 0.4rem;
+}
+
+footer a {
+  color: #fff;
+}
+footer a:hover {
+  color: #04fe3a;
 }
