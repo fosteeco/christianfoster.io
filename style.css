@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu+Mono&display=swap');
+* {
+  box-sizing: border-box;
+  font-family: 'Ubuntu Mono';
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Ubuntu Mono';
+  background-color: #1f2121;
+  color: white;
+  border-bottom: 5px #04fe3a solid;
+  font-size: 2rem;
+}
+header h1 {
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+header p {
+  margin: 1.2rem 0;
+}
+header h1::after {
+  content: '\00a0';
+  background-color: #04fe3a;
+  animation: blinker 1s infinite;
+}
+.terminal-green {
+  color: #04fe3a;
+}
+
+.main-nav {
+  /* background-color: #dfcfbe; */
+  /* background-color: #938375; */
+  /* background-color: #343148; */
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.main-nav ul {
+  font-family: inherit;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  height: 10vh;
+  max-width: 1000px;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+.main-nav li {
+  display: flex;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  color: #04fe3a;
+  /* border: 2px solid red; */
+}
+.main-nav a {
+  height: 100%;
+  width: 100%;
+  color: #04fe3a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-nav i[class^='fas']:before {
+  display: inline-block;
+  text-decoration: none;
+}
+.main-nav i[class^='fas']:after {
+  display: inline-block;
+  content: '\00a0\00a0';
+  text-decoration: none;
+}
+.main-nav a:hover {
+  /* color: #04fe3a; */
+  /* color: #0007eb; */
+  color: #fff;
+}
+
+@keyframes blinker {
+  60% {
+    opacity: 0;
+  }
+}
