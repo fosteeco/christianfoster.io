@@ -125,6 +125,13 @@ footer .social-icons {
   align-items: center;
   justify-content: center;
 }
+body {
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  margin-top: auto;
+}
 footer .social-icons i {
   font-size: 2rem;
   padding: 0.4rem;
