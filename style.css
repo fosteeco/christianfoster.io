@@ -8,7 +8,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-header {
+header.main-header {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,6 +17,12 @@ header {
   color: white;
   border-bottom: 5px #04fe3a solid;
   font-size: 2rem;
+}
+header.blog-entry h2 {
+  margin-bottom: 0;
+}
+header.blog-entry p {
+  margin-top: 0;
 }
 .intro {
   display: flex;
@@ -107,6 +113,7 @@ header h1::after {
 
 main {
   /* background-color: blue; */
+  height: 100%;
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
@@ -147,4 +154,18 @@ footer .social-icons {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.blog-wrap {
+  width: 100%;
+}
+
+.blog-main {
+  display: flex;
+  padding: 0;
+}
+.blog-main button {
+  margin: 0 10px;
+  display: block;
+  height: 100%;
 }
