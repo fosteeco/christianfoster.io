@@ -129,9 +129,11 @@ footer .social-icons {
   justify-content: center;
 }
 body {
-  max-width: 1000px;
   display: flex;
   flex-direction: column;
+}
+footer {
+  margin-top: auto;
 }
 footer .social-icons i {
   font-size: 2rem;
