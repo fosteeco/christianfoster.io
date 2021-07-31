@@ -44,6 +44,7 @@ header.blog-entry p {
 header h1 {
   margin: 0 auto;
   padding-top: 1rem;
+  text-align: center;
 }
 header p {
   margin: 1.2rem 0;
@@ -175,5 +176,12 @@ footer .social-icons {
 @media screen and (max-width: 640px) {
   footer .footer-wrap {
     flex-direction: column;
+  }
+  .social-icons {
+    flex-direction: column;
+  }
+  footer .social-icons i {
+    font-size: 3rem;
+    padding: 0.4rem;
   }
 }
