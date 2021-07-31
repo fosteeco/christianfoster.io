@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu+Mono&display=swap');
+
 * {
   box-sizing: border-box;
   font-family: 'Ubuntu Mono';
 }
+
 body {
   height: 100vh;
   display: flex;
   flex-direction: column;
   font-size: 1rem;
 }
+
 header.main-header {
   display: flex;
   flex-direction: column;
@@ -19,19 +22,24 @@ header.main-header {
   border-bottom: 5px #04fe3a solid;
   font-size: 2rem;
 }
+
 header.blog-entry h2 {
   margin-bottom: 0;
 }
+
 header.blog-entry p {
   margin-top: 0;
 }
+
 .intro {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 /* 19 from top
 +75  = 164px  */
+
 .avatar {
   /* position: absolute; */
   /* left: 50px; */
@@ -41,6 +49,7 @@ header.blog-entry p {
   border-radius: 50%;
   border: 5px #000 solid;
 }
+
 header h1 {
   margin: 0 auto;
   padding-top: 1rem;
