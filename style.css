@@ -54,15 +54,19 @@ header h1 {
   margin: 0 auto;
   padding-top: 1rem;
   text-align: center;
+  padding: 1rem;
 }
+
 header p {
   margin: 1.2rem 0;
 }
+
 header h1::after {
   content: '\00a0';
   background-color: #04fe3a;
   animation: blinker 1s infinite;
 }
+
 .terminal-green {
   color: #04fe3a;
 }
@@ -100,6 +104,7 @@ header h1::after {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
 }
 .main-nav i[class^='fas']:before {
   display: inline-block;
