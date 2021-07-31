@@ -147,6 +147,7 @@ footer .social-icons i {
 footer a {
   color: #fff;
 }
+
 footer a:hover {
   color: #04fe3a;
 }
@@ -187,11 +188,18 @@ footer .social-icons {
   footer .footer-wrap {
     flex-direction: column;
   }
+
   .social-icons {
     flex-direction: column;
   }
+
   footer .social-icons i {
     font-size: 3rem;
     padding: 0.4rem;
+  }
+
+  .main-nav ul li a {
+    flex-direction: column-reverse;
+    justify-content: center;
   }
 }
